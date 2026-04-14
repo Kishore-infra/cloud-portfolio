@@ -1,65 +1,58 @@
-# 🌐 Flask Multi-Page Web Application
+# Cloud Portfolio — Flask Multi-Page Web Application
 
-## 📌 Project Overview
-
-This project is a Flask-based web application with multiple pages.
-It demonstrates how to build a simple website using Python Flask with HTML templates and basic styling.
+A Flask-based multi-page web application built with HTML templates and CSS styling. This was my second project — after learning basic EC2 deployment, I focused on building a proper web app structure with multiple routes and a clean frontend.
 
 ---
 
-## 🚀 Features
+## What this project does
 
-* Multiple pages:
-
-  * Home
-  * About
-  * Projects
-  * Contact
-* HTML templates using Flask
-* Basic styling with colors and layout
+A simple portfolio-style website with 4 pages:
+- Home
+- About
+- Projects
+- Contact
 
 ---
 
-## 🛠️ Technologies Used
+## What I built
 
-* Python 3
-* Flask
-* HTML
-* CSS
-
----
-
-## ⚙️ How to Run
-
-### 1. Install Flask
-
-pip3 install flask
-
-### 2. Run the Application
-
-python3 app.py
+- Multi-page Flask app with separate routes for each page
+- HTML templates using Flask's Jinja2 templating engine
+- Basic CSS styling with colors and layout
+- Clean navigation between pages
 
 ---
 
-## 🌐 Access the Application
+## What I learned
 
-http://your-public-ip:5000
-
----
-
-## 📁 Project Structure
-
-app.py
-templates/
-README.md
+- How Flask routing works across multiple pages
+- How to use HTML templates with Flask (Jinja2)
+- How to serve static files (CSS) in Flask
+- How to structure a Flask project properly (templates folder, static folder)
 
 ---
 
-## 💡 What I Learned
+## How this fits my learning path
 
-* Creating multiple routes in Flask
-* Using templates for different pages
-* Basic web design using HTML and CSS
-* Running a Flask app on a server
+This was step 2 of 3 in my cloud/backend journey:
+
+Project 1 → Basic Flask on EC2 (learned cloud infrastructure)
+Project 2 → Multi-page Flask app (learned app structure + templating)
+Project 3 → Full production deployment (Nginx + Gunicorn + SSL + PEM key)
 
 ---
+
+## Stack
+
+Python · Flask · HTML · CSS
+
+---
+
+## Run locally
+
+```bash
+git clone https://github.com/Kishore-infra/cloud-portfolio.git
+cd cloud-portfolio
+pip install flask
+python app.py
+```
